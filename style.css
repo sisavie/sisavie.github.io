@@ -127,7 +127,7 @@ nav{
 }
 .media iframe{
     width: 50vh;
-    height: 70vh;
+    height: 40vh;
     border: 2px solid black;
     text-decoration: none;
     color: black;
@@ -220,7 +220,7 @@ footer p{
     }
     .media iframe{
        width: 30vh;
-    height: 50vh; 
+    height: 20vh; 
     }
     .instagram,.twitter,.Facebook {
     margin: 10vh 0vh 0vh 0vh;
