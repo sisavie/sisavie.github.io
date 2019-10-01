@@ -1,0 +1,122 @@
+<style>
+*{ margin:0;
+   padding:0;
+box-sizing:border-box;
+  
+}
+
+
+.haha{
+   width: 100%;
+   height: 100%;
+   background: linear-gradient(57deg,white,rosybrown);
+   clip-path: (0%,0%, 100% 0%, 100% 78%, 0% 100%); 
+    
+}
+nav{
+    width: 100%; 
+    height: 15%;
+    display: flex; 
+    color: whitesmoke; 
+    background-color:#3c3c3c;
+}
+
+.logo{width: 50%; 
+    height: 15%;
+    background-color: #3c3c3c;}
+
+.logo h1{
+    width: 25vw;
+    height:auto;
+    font-family: yasmin;
+    padding-left: 15%;
+}
+
+.menu{ 
+    width:50%; 
+    height:55%;
+}
+.menu ul{width: 100%; 
+    height: 100%; 
+    display:flex; 
+    flex-direction: row;
+    justify-content: space-around; 
+    align-items: center; color: whitesmoke;
+    padding-right:10%;
+}
+
+.menu ul li {
+    list-style: none;
+    font-size:1.2vw;
+    font-weight:bold;
+    text-transform: uppercase;}
+
+.menu ul li a {
+    text-decoration: none;
+    color:whitesmoke;}
+
+.section{ 
+    display: flex;
+    height:100%;
+}
+.image {
+    float:left;
+    display: flex;
+    width: 50%;
+    height: 100%;
+    
+}
+
+.image img {
+    width: 60%;
+    height:auto;
+    padding-top: 20%;   
+}
+.rightside {
+    float: right;
+    width: 50%;
+    
+}
+.rightside h1{
+    font-family: megumin;
+    font-size: 35px;
+    padding-right: 30%;
+    padding-top: 8%;
+}
+.rightside p{
+    font-family: Calibri;
+    font-size: 15px;
+    padding-right: 10%;
+    
+}
+.rightside a{
+    
+text-decoration: none;
+color:beige;
+    text-decoration: none;
+		background-color: #c3c3c3;
+		padding: 2px 6px 2px 6px;
+		border: 1px solid #c2c2c2;
+		border-radius:2px;
+}
+.media {
+    border-style: none;
+    float: left;
+}
+
+footer{
+    width: 100%;
+    height: 80px;
+    color: whitesmoke;
+    background-color:#3c3c3c;
+    padding: 10px;
+}
+footer p{ text-align: center; font-size: 12px;}
+
+@media (max-width: 600px) {
+  section {
+    -webkit-flex-direction: column;
+    flex-direction: column;
+  }
+}
+</style>
