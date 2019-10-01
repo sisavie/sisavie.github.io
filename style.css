@@ -136,6 +136,35 @@ nav{
     text-decoration: none;
     color: black;
 }
+.instagram,.twitter,.Facebook {
+    flex:1;
+    margin: 0vw 0vw 0vw 10vw;
+   
+}
+.instagram img{
+    height: 40vh;
+}
+.twitter img{
+    height: 40vh;
+}
+.facebook img{
+    height: 40vh;
+}
+.instagram h3{
+    font-family: Roboto Slab;
+    font-size: 1vw;
+    text-align: center;
+}
+.twitter h3{
+    font-family: Roboto Slab;
+    font-size: 1vw;
+    text-align: center;
+}
+.Facebook h3{
+    font-family: Roboto Slab;
+    font-size: 1vw;
+    text-align: center;
+}
 footer{
     background-color:darkslategray;
     width: 100%;
