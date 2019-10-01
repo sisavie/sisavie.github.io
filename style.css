@@ -15,21 +15,23 @@ box-sizing:border-box;
 }
 nav{
     width: 100%; 
-    height: 15%;
+    height: 5vw;
     display: flex; 
     color: whitesmoke; 
     background-color:#3c3c3c;
 }
 
-.logo{width: 50%; 
-    height: 15%;
+.logo{
+    width: 100%; 
+    height: 5vw;
     background-color: #3c3c3c;}
 
 .logo h1{
-    width: 25vw;
+    width: 100%;
     height:auto;
     font-family: yasmin;
-    padding-left: 15%;
+    padding-left: 3vw ;
+    font-size: 1.5vw;
 }
 
 .menu{ 
@@ -43,13 +45,14 @@ nav{
     flex-direction: row;
     justify-content: space-around; 
     align-items: center; color: whitesmoke;
-    padding-right:10%;
-    padding-top: 3%;
+    padding-right:3vw;
+    padding-top: 1vw;
+    padding-bottom: 1.5vw;
 }
 
 .menu ul li {
     list-style: none;
-    font-size: 100% auto;
+    font-size: 1.3vw;
     font-weight:bold;
     text-transform: uppercase;}
 
@@ -82,15 +85,15 @@ nav{
     height:auto;
     padding-top: 20%;   
 }
-.iframe iframe {
-    float: right;
-    width: 50%
-    height: auto;
-}
+
 .rightside {
     float: right;
     width: 50%;
     height: auto;
+}
+.rightside iframe {
+    width: 50%;
+    display: flex;
 }
 .rightside h1{
     font-family: megumin;
@@ -125,6 +128,13 @@ color:beige;
     float: left;
     width: 50%;
     height:auto;
+}
+.leftside h3 {
+    font-size: 1.5vw;
+}
+.leftside pre{
+    font-family: calibri;
+    font-size: 1vw;
 }
 
 
