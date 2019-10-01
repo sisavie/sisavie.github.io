@@ -222,6 +222,16 @@ footer p{
        width: 30vh;
     height: 50vh; 
     }
+    .instagram,.twitter,.Facebook {
+    margin: 10vh 0vh 0vh 0vh;
+        
+}
+    .instagram img,.twitter img ,.Facebook img{
+    height: 25vh;
+    }
+    .instagram h3,.twitter h3,.Facebook h3 {
+     font-size: 5vw;
+}
 }
 @media screen and (max-width: 600px){
     .presentation{
@@ -268,3 +278,18 @@ footer p{
     .media iframe{
        width: 30vh;
     height: 50vh; 
+    }
+    .instagram,.twitter,.Facebook {
+    margin: 5vh 0vh 0vh 0vh;
+    }
+        .instagram,.twitter,.Facebook {
+    margin: 10vh 0vh 0vh 0vh;
+        
+   }
+    .instagram img,.twitter img ,.Facebook img{
+    height: 25vh;
+    }
+    .instagram h3,.twitter h3,.Facebook h3 {
+     font-size: 5vw;
+   }
+}
