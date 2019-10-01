@@ -1,159 +1,228 @@
-<style>
-*{ margin:0;
-   padding:0;
-box-sizing:border-box;
-  
+*{
+  margin:0px;
+  padding:0px;
+box-sizing:border-box;   
+    
+}
+body{
+    font-family: 'Roboto Slab','Playfair Display','Raleway' serif;
+}
+button{ 
+    font-family: 'Roboto Slab';
 }
 
+header{
+    display: flex;
+    background-color:darkslategray;
+    width: 100%;
+    margin: auto;
+    height: 12vh;
+    align-items: center;
+}
+.logo-container,.nav-links{
+    display:flex;
+}
+.logo-container{
+   
+    flex:1;   
+}
 
-.container{
-   width: 100%;
-   height: 100%;
-   background: linear-gradient(57deg,white,rosybrown);
-   clip-path: (0%,0%, 100% 0%, 100% 78%, 0% 100%); 
-    
+.logo-container img{
+    width: 120px;
+    height:auto;
+    padding-left: 15px;
 }
 nav{
-    width: 100%; 
-    height: 5vw;
-    display: flex; 
-    color: whitesmoke; 
-    background-color:#3c3c3c;
+    flex:2;   
 }
-
-.logo{
-    width: 100%; 
-    height: 5vw;
-    background-color: #3c3c3c;}
-
-.logo h1{
-    width: 100%;
-    height:auto;
-    font-family: yasmin;
-    padding-left: 3vw ;
-    font-size: 1.5vw;
-}
-
-.menu{ 
-    width:50%; 
-    height:55% auto;
-}
-.menu ul{
-    width: 100%; 
-    height: auto; 
-    display:flex; 
-    flex-direction: row;
-    justify-content: space-around; 
-    align-items: center; color: whitesmoke;
-    padding-right:3vw;
-    padding-top: 1vw;
-    padding-bottom: 1.5vw;
-}
-
-.menu ul li {
+.nav-links{
+   justify-content:space-around; 
     list-style: none;
-    font-size: 1.3vw;
-    font-weight:bold;
-    text-transform: uppercase;}
-
-.menu ul li a {
+}
+.nav-link{
+    color: gainsboro;
+    font-size: 18px;
     text-decoration: none;
-    color:whitesmoke;}
-
-.section{ 
-    display:flex;
-    height: auto;
-    width: 100%;
 }
-.article {
-    width: 100%;
-    height:auto;
-    font-size: 100%;
+.nav-link hover{
+    color: darkgray;
+}
+
+.presentation{
     display: flex;
+     width: 100%;
+     margin: auto;
+     min-height: 88vh;
+    align-items:center;
+    background: linear-gradient( to right, lightgray, white)
+}
+.introduction{
+    flex:1;
+}
+.intro-text h1{
+    font-size: 44px;
+    font-weight:500;
+    background: linear-gradient(to right, #494964, #6f6f89);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color:transparent;
+}
+.intro-text p{
+    margin-top:5px;
+    font-size: 20px;
+    color:black;
+}
+.cta{
+    padding: 30px 0px 0px 0px; 
+}
+.cta-select{
+    border: 2px solid #121212;
+    background: transparent;
+    color: #121212;
+    width: 150px;
+    height: 30px;
+    cursor:pointer;
+    font-size: 16px;
+}
+.cover{
+    flex:1;
     
 }
-.image {
-    float:left;
-    display: flex;
-    width: 50%;
-    height: 100%;
-    
+.cover img{ 
+   height: 50vh; 
+   filter: drop-shadow(0px 5px 3px black);
+   
 }
-
-.image img {
-    width: 60%;
-    height:auto;
-    padding-top: 20%;   
+.profileimage{
+    flex:1;
 }
-
-.rightside {
-    float: right;
-    width: 50%;
-    height: auto;
+.profileimage h3{
+    font-family: Roboto Slab;
+    font-size:25px;
 }
-.rightside iframe {
-    width: 50%;
-    display: flex;
+.profileimage img{
+    height: 40vh; 
+   filter: drop-shadow(0px 5px 3px black);
+    border: 2px solid black;
 }
-.rightside h1{
-    font-family: megumin;
-    font-size: 35px;
-    padding-right: 30%;
-    padding-top: 8%;
+.article{
+    flex:2;
+    background-color:whitesmoke;
+    margin: 0px 50px 0px 0px;
 }
-.rightside p{
-    font-family: Calibri;
+.article h3{
+    font-size: 25px;
+    font-weight:500;
+    font-family: Roboto Slab;
+}
+.article pre{
+    font-family: Raleway;
     font-size: 15px;
-    padding-right: 10%;
-    
+} 
+.media {
+    flex:1;
 }
-.rightside a{
-    
-text-decoration: none;
-color:beige;
+.media h3{
+    font-size: 25px;
+    font-family: Roboto Slab;
+}
+.media iframe{
+    width: 50vh;
+    height: 70vh;
+    border: 2px solid black;
     text-decoration: none;
-		background-color: #c3c3c3;
-		padding: 2px 6px 2px 6px;
-		border: 1px solid #c2c2c2;
-		border-radius:2px;
+    color: black;
 }
-.rightside iframe{
-   width: 70% ;
-   height: auto;
-
-
+.media p{
+    text-decoration: none;
+    color: black;
 }
-
-.leftside {
-    float: left;
-    width: 50%;
-    height:auto;
-}
-.leftside h3 {
-    font-size: 1.5vw;
-}
-.leftside pre{
-    font-family: calibri;
-    font-size: 1vw;
-}
-
-
 footer{
+    background-color:darkslategray;
     width: 100%;
-    height: 80px;
-    color: whitesmoke;
-    background-color:#3c3c3c;
-    padding: 10px;
+    height: 12vh;
+    align-items: center;
+
 }
-footer p{ text-align: center; font-size: 12px;}
+footer p{
+   
+    font-size: 12px; }
 
-
-
-/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
-@media (max-width: 600px) {
-  nav, article {
-    width: 100%;
-    height: auto;
-  }
+@media screen and (max-width: 1024px){
+    .presentation{
+        flex-direction:column;
+    }
+    .introduction{
+        margin-top: 1vh;
+        text-align: center;
+    }
+    .intro-text h1{ 
+    font-size: 30px;
+    }
+    .intro-text p{
+        font-size: 18px;
+    }
+    .cta{
+        padding: 10px 0px 0px 0px;
+    }
+    .cover img{
+        height: 45vh;
+    }
+    .nav-link{
+        font-size:25px;
+    }
+    .logo-container img{
+        width: 170px;
+        height: auto;
+    }
+    .profileimage{
+        height: 30vh;
+    }
+    .article{
+        margin: 1vw 0vw 1vw 0vw;
+    }
+    .article h3{
+        font-size: 18px;
+    }
+    .article pre{
+        font-size: 10px;
+    }
+    .media h3{
+        font-size: 18px;
+    }
+    .media iframe{
+       width: 30vh;
+    height: 50vh; 
+    }
 }
-</style>
+@media screen and (max-width: 600px){
+    .presentation{
+        flex-direction:column;
+    }
+    .introduction{
+        margin-top: 1vh;
+        text-align: center;
+    }
+    .intro-text h1{ 
+    font-size: 30px;
+    }
+    .intro-text p{
+        font-size: 18px;
+    }
+    .cta{
+        padding: 10px 0px 0px 0px;
+    }
+    .cover img{
+        height: 45vh;
+    }
+     .nav-link{
+        font-size:16px;
+    }
+    .logo-container img{
+        width: 100px;
+        height: auto;
+    }
+    .profileimage{
+        height: 25vh;
+}
+    .article{
+        margin: 3px 0px 3px 0px;
