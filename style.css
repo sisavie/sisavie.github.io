@@ -58,13 +58,16 @@ nav{
     color:whitesmoke;}
 
 .section{ 
-    display:table;
-    
+    display:flex;
+    height: auto;
+    width: 100%;
 }
 .article {
     width: 100%;
     height:auto;
     font-size: 100%;
+    display: flex;
+    
 }
 .image {
     float:left;
