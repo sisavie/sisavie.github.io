@@ -224,5 +224,18 @@ footer p{
     .profileimage{
         height: 25vh;
 }
-    .article{
-        margin: 3px 0px 3px 0px;
+   .article{
+        margin: 1vw 0vw 1vw 0vw;
+    }
+    .article h3{
+        font-size: 18px;
+    }
+    .article pre{
+        font-size: 10px;
+    }
+    .media h3{
+        font-size: 18px;
+    }
+    .media iframe{
+       width: 30vh;
+    height: 50vh; 
