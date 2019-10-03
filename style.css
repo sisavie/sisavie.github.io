@@ -104,9 +104,9 @@ nav{
    filter: drop-shadow(0px 5px 3px black);
    
 }
- .profileimage{
-        height: 25vh;
-        padding: 5vh 14vw 5vh 14vw;
+.profileimage{
+    flex:1;
+    margin: 2vh 3vw 2vh 3vw;
 }
 .profileimage h3{
     font-family: Roboto Slab;
@@ -242,15 +242,15 @@ footer p{
     height:2vh;
    
     }
-     .profileimage{
-        height: 25vh;
-        padding: 5vh 14vw 5vh 14vw;
-}
+    .profileimage{
+        height: 30vh;
+        margin: 5vh 20vw 5vh 20vw;
+    }
     .profileimage h3{
       font-size: 5vw;
 }
     .article{
-        margin: 10vh 1vw 1vh 1vw;
+        margin: 10vh 1vw 5vh 1vw;
     }
     .article h3{
         font-size: 5vw;
@@ -319,7 +319,8 @@ footer p{
         padding: 5vh 14vw 5vh 14vw;
 }
    .article{
-        margin: 10vh 1vw 1vh 1vw;
+        margin: 10vh 1vw 5vh 1vw;
+       padding-top: 1vh;
     }
     .article h3{
         font-size: 18px;
