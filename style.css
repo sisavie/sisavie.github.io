@@ -24,11 +24,11 @@ header{
 }
 .logo-container{
    
-    flex:1;   
+    flex:2;   
 }
 
 .logo-container img{
-    width: 30vh;
+    width: 12vw;
     height:auto;
     padding-left: 15px;
 }
@@ -38,6 +38,7 @@ nav{
 .nav-links{
    justify-content:space-around; 
     list-style: none;
+    
 }
 .nav-link{
     color: gainsboro;
@@ -61,7 +62,8 @@ nav{
      width: 100%;
      margin: auto;
      min-height: 88vh;
-    background: linear-gradient( to right, lightgray, white)
+    background: linear-gradient( to right, lightgray, white);
+    align-items: center;
 }
     
 }
@@ -104,6 +106,7 @@ nav{
 }
 .profileimage{
     flex:1;
+    margin: 2vh 3vw 2vh 3vw;
 }
 .profileimage h3{
     font-family: Roboto Slab;
@@ -113,6 +116,11 @@ nav{
     height: 40vh; 
    filter: drop-shadow(0px 5px 3px black);
     border: 2px solid black;
+}
+.profileimage p{
+    background-color: whitesmoke;
+    font-size: : 25px;
+    margin: 2vh 0vw 2vh 0vw;
 }
 .article{
     flex:2;
@@ -202,14 +210,27 @@ footer p{
         text-align: center;
     }
     .intro-text h1{ 
-    font-size: 30px;
+    font-size: 7vh;
     }
     .intro-text p{
-        font-size: 18px;
+        font-size: 2.5vh;
     }
     .cta{
         padding: 10px 0px 0px 0px;
     }
+    .cta-select{
+    border: 2px solid #121212;
+    background: transparent;
+    color: #121212;
+    width: 18vw;
+    height: 5vw;
+    cursor:pointer;
+    font-size: 2vh;
+}
+    .cover{
+    margin: 3vh 10vw 3vh 10vw;
+    
+}
     .cover img{
         height: 45vh;
     }
@@ -228,7 +249,7 @@ footer p{
       font-size: 5vw;
 }
     .article{
-        margin: 1vw 1vw 1vw 1vw;
+        margin: 10vw 1vw 1vw 1vw;
     }
     .article h3{
         font-size: 5vw;
@@ -281,6 +302,10 @@ footer p{
     .cover img{
         height: 45vh;
     }
+     .cover{
+    margin: 3vh 10vw 3vh 10vw;
+    
+}
      .nav-link{
         font-size:16px;
     }
@@ -293,7 +318,7 @@ footer p{
         margin: 5vh 14vw 10vh 14vw;
 }
    .article{
-        margin: 1vw 1vw 1vw 1vw;
+        margin: 10vw 1vw 1vw 1vw;
     }
     .article h3{
         font-size: 18px;
