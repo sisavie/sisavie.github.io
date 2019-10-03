@@ -28,7 +28,7 @@ header{
 }
 
 .logo-container img{
-    width: 120px;
+    width: 30vh;
     height:auto;
     padding-left: 15px;
 }
@@ -55,6 +55,15 @@ nav{
      min-height: 88vh;
     align-items:center;
     background: linear-gradient( to right, lightgray, white)
+}
+.biomain {
+    display: flex;
+     width: 100%;
+     margin: auto;
+     min-height: 88vh;
+    background: linear-gradient( to right, lightgray, white)
+}
+    
 }
 .introduction{
     flex:1;
@@ -107,7 +116,7 @@ nav{
 .article{
     flex:2;
     background-color:whitesmoke;
-    margin: 0px 50px 0px 0px;
+    margin: 35px 50px 30px 40px;
 }
 .article h3{
     font-size: 25px;
@@ -126,8 +135,8 @@ nav{
     font-family: Roboto Slab;
 }
 .media iframe{
-    width: 50vh;
-    height: 40vh;
+    width: 30vw;
+    height: 10vw;
     border: 2px solid black;
     text-decoration: none;
     color: black;
@@ -177,7 +186,14 @@ footer p{
     font-size: 12px; }
 
 @media screen and (max-width: 1024px){
+    .nav-link{
+    
+    font-size: 5vh;
+    }
     .presentation{
+        flex-direction:column;
+    }
+    .biomain{
         flex-direction:column;
     }
     .introduction{
@@ -205,22 +221,29 @@ footer p{
     }
     .profileimage{
         height: 30vh;
+        margin: 5vh 20vw 5vh 20vw;
     }
+    .profileimage h3{
+      font-size: 5vw;
+}
     .article{
-        margin: 1vw 0vw 1vw 0vw;
+        margin: 1vw 1vw 1vw 1vw;
     }
     .article h3{
-        font-size: 18px;
+        font-size: 5vw;
     }
     .article pre{
-        font-size: 10px;
+        font-size: 2.5vw;
     }
-    .media h3{
-        font-size: 18px;
+     .media h3{
+        font-size: 5vw;
+        margin: 5vh 4vw 0vh 4vw;
     }
     .media iframe{
-       width: 30vw;
-    height: 50vh; 
+       width: 90vw;
+    height: 40vh;
+        margin: 2vh 4vw 5vh 4vw;
+        
     }
     .instagram,.twitter,.Facebook {
     margin: 10vh 0vh 0vh 0vh;
@@ -234,6 +257,10 @@ footer p{
 }
 }
 @media screen and (max-width: 600px){
+    .nav-link{
+    
+    font-size: 5vh;
+    }
     .presentation{
         flex-direction:column;
     }
@@ -262,22 +289,26 @@ footer p{
     }
     .profileimage{
         height: 25vh;
+        margin: 5vh 14vw 10vh 14vw;
 }
    .article{
-        margin: 1vw 0vw 1vw 0vw;
+        margin: 1vw 1vw 1vw 1vw;
     }
     .article h3{
         font-size: 18px;
     }
     .article pre{
-        font-size: 10px;
+        font-size: 2.67vw;
     }
     .media h3{
         font-size: 18px;
+        margin: 5vh 4vw 0vh 4vw;
     }
     .media iframe{
-        width: 30vw;
-    height: 50vh; 
+       width: 90vw;
+    height: 40vh;
+        margin: 2vh 4vw 5vh 4vw;
+        
     }
     .instagram,.twitter,.Facebook {
     margin: 5vh 0vh 0vh 0vh;
@@ -292,4 +323,4 @@ footer p{
     .instagram h3,.twitter h3,.Facebook h3 {
      font-size: 5vw;
    }
-}
+    
