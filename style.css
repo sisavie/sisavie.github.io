@@ -29,7 +29,7 @@ header{
 }
 
 .logo-container img{
-    width: 25%;
+    width: 120px;
     height:auto;
     padding-left: 1vw;
 }
@@ -45,6 +45,7 @@ nav{
     color: gainsboro;
     font-size: 18px;
     text-decoration: none;
+    font-family: Roboto lab;
 }
 .nav-link hover{
     color: darkgray;
@@ -252,7 +253,7 @@ footer p{
         font-size:4vw;
     }
     .logo-container img{
-    width: 50%;
+    width: 100px;
     height:auto;
    
     }
@@ -353,7 +354,7 @@ footer p{
         font-size:4vw;
     }
     .logo-container img{
-    width: 50%;
+    width:  100px;
     height:auto;
    
     }
@@ -455,7 +456,7 @@ footer p{
         font-size:4vw;
     }
     .logo-container img{
-    width: 50%;
+    width: 100px;
     height:auto;
    
     }
