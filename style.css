@@ -24,16 +24,16 @@ header{
 }
 .logo-container{
    
-    flex:2;   
+    flex:1;   
 }
 
 .logo-container img{
-    width: 5vw;
-    height:2vh;
+    width: 25%;
+    height:auto;
     padding-left: 1vw;
 }
 nav{
-    flex:2;   
+    flex:1;   
 }
 .nav-links{
    justify-content:space-around; 
@@ -62,8 +62,9 @@ nav{
      width: 100%;
      margin: auto;
      min-height: 88vh;
-    background: linear-gradient( to right, lightgray, white);
-    align-items: center;
+    background: linear-gradient( to bottom, lightgray, darkgrey);
+    align-items:center;
+    align-content: space-between;
 }
     
 }
@@ -106,14 +107,15 @@ nav{
 }
 .profileimage{
     flex:1;
-    margin: 2vh 3vw 2vh 3vw;
+    margin: 2vh 4vw 2vh 4vw;
+    background-color: whitesmoke;
 }
 .profileimage h3{
     font-family: Roboto Slab;
     font-size:25px;
 }
 .profileimage img{
-    height: 40vh; 
+    height: 30vh; 
    filter: drop-shadow(0px 5px 3px black);
     border: 2px solid black;
 }
@@ -123,9 +125,9 @@ nav{
     margin: 2vh 0vw 2vh 0vw;
 }
 .article{
-    flex:2;
+    flex:4;
     background-color:whitesmoke;
-    margin: 35px 50px 30px 40px;
+    margin: 2vh 0vw 2vh 0vw ;
 }
 .article h3{
     font-size: 25px;
@@ -137,15 +139,16 @@ nav{
     font-size: 15px;
 } 
 .media {
-    flex:1;
+    flex:2;
+    margin: 2vh 1vw 2vh 3vw;
 }
 .media h3{
     font-size: 25px;
     font-family: Roboto Slab;
 }
 .media iframe{
-    width: 30vw;
-    height: 10vw;
+    width: 25vw;
+    height: 30vh;
     border: 2px solid black;
     text-decoration: none;
     color: black;
@@ -191,7 +194,7 @@ footer{
 
 }
 footer p{
-   
+    color: antiquewhite;
     font-size: 12px; }
 
 @media screen and (max-width: 1024px){
@@ -235,22 +238,27 @@ footer p{
         height: 45vh;
     }
     .nav-link{
-        font-size:25px;
+        font-size:4vw;
     }
     .logo-container img{
-    width: 5vw;
-    height:2vh;
+    width: 50%;
+    height:auto;
    
     }
     .profileimage{
         height: 30vh;
-        margin: 5vh 20vw 5vh 20vw;
+        margin: 5vh 10vw 3vh 10vw;
     }
+    .profileimage p{
+    background-color: whitesmoke;
+    font-size: : 5vw;
+        margin: 2vh 0vw 2vh 0vw;}
     .profileimage h3{
       font-size: 5vw;
+        text-align: center;
 }
     .article{
-        margin: 10vh 1vw 5vh 1vw;
+        margin: 2vh 4vw 5vh 1vw;
     }
     .article h3{
         font-size: 5vw;
@@ -265,7 +273,7 @@ footer p{
     .media iframe{
        width: 90vw;
     height: 40vh;
-        margin: 2vh 4vw 5vh 4vw;
+       margin: 2vh 4vw 5vh 1vw;
         
     }
     .instagram,.twitter,.Facebook {
@@ -278,13 +286,20 @@ footer p{
     .instagram h3,.twitter h3,.Facebook h3 {
      font-size: 5vw;
 }
+ .footer p {
+   
+    font-size: 100px; 
+    }   
 }
-@media screen and (max-width: 600px){
-    .nav-link{
+@media screen and (max-width: 600px,300px){
+        .nav-link{
     
     font-size: 5vh;
     }
     .presentation{
+        flex-direction:column;
+    }
+    .biomain{
         flex-direction:column;
     }
     .introduction{
@@ -292,63 +307,84 @@ footer p{
         text-align: center;
     }
     .intro-text h1{ 
-    font-size: 30px;
+    font-size: 7vh;
     }
     .intro-text p{
-        font-size: 18px;
+        font-size: 2.5vh;
     }
     .cta{
         padding: 10px 0px 0px 0px;
     }
-    .cover img{
-        height: 45vh;
-    }
-     .cover{
+    .cta-select{
+    border: 2px solid #121212;
+    background: transparent;
+    color: #121212;
+    width: 18vw;
+    height: 5vw;
+    cursor:pointer;
+    font-size: 2vh;
+}
+    .cover{
     margin: 3vh 10vw 3vh 10vw;
     
 }
-     .nav-link{
-        font-size:16px;
+    .cover img{
+        height: 45vh;
+    }
+    .nav-link{
+        font-size:4vw;
     }
     .logo-container img{
-    width: 5vw;
-    height:2vh;
+    width: 50%;
+    height:auto;
+   
     }
     .profileimage{
         height: 25vh;
-        padding: 5vh 14vw 5vh 14vw;
+        margin: 5vh 10vw 3vh 10vw;
+    }
+    .profileimage p{
+    font-size: : 2.5vw;
+        margin: 2vh 0vw 2vh 0vw;
+    }
+    .profileimage h3{
+      font-size: 5vw;
 }
-   .article{
-        margin: 8vh 1vw 5vh 1vw;
-       padding-top: 1vh;
+    .article{
+       margin: 5vh 10vw 3vh 10vw;
     }
     .article h3{
-        font-size: 18px;
+        font-size: 5vw;
     }
     .article pre{
-        font-size: 2.67vw;
+        font-size: 3vw;
     }
-    .media h3{
-        font-size: 18px;
+    .media {
+        margin: 5vh 10vw 3vh 10vw;
+    }
+    
+     .media h3{
+        font-size: 5vw;
         margin: 5vh 4vw 0vh 4vw;
     }
     .media iframe{
        width: 90vw;
     height: 40vh;
-        margin: 2vh 4vw 5vh 4vw;
+
         
     }
     .instagram,.twitter,.Facebook {
-    margin: 5vh 0vh 0vh 0vh;
-    }
-        .instagram,.twitter,.Facebook {
     margin: 10vh 0vh 0vh 0vh;
         
-   }
+}
     .instagram img,.twitter img ,.Facebook img{
     height: 25vh;
     }
     .instagram h3,.twitter h3,.Facebook h3 {
      font-size: 5vw;
-   }
-    
+}
+ .footer p {
+   
+    font-size: 100px; 
+    }   
+}
