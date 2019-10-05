@@ -125,8 +125,9 @@ nav{
 }
 .profileimage p{
     background-color: whitesmoke;
-    font-size: : 25px;
+    font-size: : 15px ;
     margin: 2vh 0vw 2vh 0vw;
+    font-family: Roboto Slab;
 }
 .article{
     flex:4;
@@ -262,13 +263,15 @@ footer p{
     }
     .profileimage p{
     font-size: : 2vw;
-        margin: 2vh 0vw 2vh 0vw;}
+        padding: 2vh 1vw 2vh 1vw;}
     .profileimage h3{
-      font-size: 5vw;
+      font-size: 2.5vw;
         text-align: center;
 }
     .article{
-        margin: 2vh 1vw 5vh 1vw;
+        margin: 3vh 1vw 5vh 1vw;
+        width : 90vw;
+        height: auto;
     }
     .article h3{
         font-size: 5vw;
@@ -276,12 +279,17 @@ footer p{
     .article pre{
         font-size: 2.5vw;
     }
+    .media {
+        margin: 5vh 10vw 3vh 10vw;
+        width : 90vw;
+        height: auto;}
+    
      .media h3{
         font-size: 5vw;
         margin: 5vh 4vw 0vh 4vw;
     }
     .media iframe{
-       width: 90vw;
+       width: 70vw;
     height: 40vh;
        margin: 2vh 4vw 5vh 1vw;
         
@@ -356,13 +364,15 @@ footer p{
     }
     .profileimage p{
     font-size: : 2.5vw;
-        margin: 2vh 0vw 2vh 0vw;
+         padding: 2vh 1vw 2vh 1vw;
     }
     .profileimage h3{
       font-size: 5vw;
 }
     .article{
-       margin: 5vh 10vw 3vh 10vw;
+       margin: 3vh 10vw 3vh 10vw;
+        width : 90vw;
+        height: auto;
     }
     .article h3{
         font-size: 5vw;
@@ -372,6 +382,8 @@ footer p{
     }
     .media {
         margin: 5vh 10vw 3vh 10vw;
+        width : 90vw;
+        height: auto;
     }
     
      .media h3{
@@ -379,7 +391,7 @@ footer p{
         margin: 5vh 4vw 0vh 4vw;
     }
     .media iframe{
-       width: 90vw;
+       width: 70vw;
     height: 40vh;
 
         
@@ -454,13 +466,15 @@ footer p{
     }
     .profileimage p{
     font-size: : 2.5vw;
-        margin: 2vh 0vw 2vh 0vw;
+       padding: 2vh 1vw 2vh 1vw;
     }
     .profileimage h3{
       font-size: 5vw;
 }
     .article{
-       margin: 10vh 10vw 3vh 10vw;
+       margin: 3vh 10vw 3vh 10vw;
+        width : 90vw;
+        height: auto;
     }
     .article h3{
         font-size: 5vw;
@@ -470,6 +484,8 @@ footer p{
     }
     .media {
         margin: 5vh 10vw 3vh 10vw;
+        width : 90vw;
+        height: auto;
     }
     
      .media h3{
@@ -477,7 +493,7 @@ footer p{
         margin: 5vh 4vw 0vh 4vw;
     }
     .media iframe{
-       width: 90vw;
+       width: 70vw;
     height: 40vh;
 
         
