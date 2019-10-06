@@ -260,6 +260,15 @@ nav{
     font-size: 5vh;
    
 }
+.facebook a:hover {
+   background-color: yellow;
+    filter: blur(1px);} 
+.twitter a:hover {
+   background-color: yellow;
+    filter: blur(1px);} 
+.instagram a:hover {
+   background-color: yellow;
+    filter: blur(1px);} 
 .qnawrap{
     display: flex;
     flex-direction: column;
