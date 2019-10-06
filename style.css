@@ -5,15 +5,34 @@ box-sizing:border-box;
     
 }
 body{
-    font-family: 'Roboto Slab','Playfair Display','Raleway' serif;
+    font-family: 'Roboto Slab','Playfair Display','Homemade+Apple','Raleway' serif;
+    font-family: 'Quicksand', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    background-image: url(./image/bakgrond.jpg);
+    
 }
+/*.bekgron {
+    background-image: url(./image/bakgrond.jpg);
+  -webkit-filter: blur(5px);
+  -moz-filter: blur(5px);
+  -o-filter: blur(5px);
+  -ms-filter: blur(5px);
+  filter: blur(5px);
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}*/
+
 button{ 
     font-family: 'Roboto Slab';
 }
 
 header{
     display: flex;
-    background-color:darkslategrey;
+    background-color:black;
     width: 100%;
     margin: auto;
     height: 12vh;
@@ -47,8 +66,9 @@ nav{
     text-decoration: none;
     font-family: Roboto lab;
 }
-.nav-link hover{
-    color: darkgray;
+.nav-links li a:hover{
+    color: yellow;
+    
 }
 
 .presentation{
@@ -57,14 +77,13 @@ nav{
      margin: auto;
      min-height: 88vh;
     align-items:center;
-    background: linear-gradient( to right, lightgray, white)
-}
+     }
 .biomain {
     display: flex;
      width: 100%;
      margin: auto;
      min-height: 88vh;
-    background: linear-gradient( to bottom, lightgray, white);
+   /* background-color: cornsilk*/;
     align-items:center;
     align-content: space-between;
 }
@@ -76,8 +95,9 @@ nav{
 }
 .intro-text h1{
     font-size: 44px;
-    font-weight:500;
-    background: linear-gradient(to right, #494964, #6f6f89);
+    font-weight:60;
+    background: black;
+    font-family: Homemade Apple;
     -webkit-background-clip: text;
     -webkit-text-fill-color:transparent;
 }
@@ -109,10 +129,12 @@ nav{
 }
 .profileimage{
     flex:1;
-    margin: 2vh 4vw 2vh 4vw;
-    background-color: whitesmoke;
+    margin: 2vh 2vw 2vh 2vw;
+    background-color:#e6b800;
      filter: drop-shadow(0px 3px 3px black);
     padding: 1vh 1vw 1vh 1vw;
+    height: auto;
+    display: column;
 }
 .profileimage h3{
     font-family: Roboto Slab;
@@ -124,40 +146,43 @@ nav{
     margin: 2vh 4vw 2vh 4vw;
     border: 2px solid black;
 }
-.profileimage p{
-    background-color: whitesmoke;
-    font-size: : 15px ;
+.profileimage pre{
+    font-size: : 1vh ;
     margin: 2vh 0vw 2vh 0vw;
-    font-family: Roboto Slab;
+    font-family: Poppins;
+    color: whitesmoke;
 }
 .article{
     flex:4;
-    background-color:whitesmoke;
+    background-color: #e6b800;
     margin: 2vh 0vw 2vh 0vw ;
     filter: drop-shadow(0px 3px 3px black);
-    padding: 1vh 1vw 1vh 1vw;
+    padding: 1vh 0vw 1vh 1vw;
 }
 .article h3{
     font-size: 25px;
-    font-weight:500;
     font-family: Roboto Slab;
 }
 .article pre{
-    font-family: Raleway;
-    font-size: 15px;
+    font-family: Poppins;
+    font-size: 2.5vh;
+    color: whitesmoke;
 } 
-.media {
+.media{
     flex:2;
-    margin: 2vh 1vw 2vh 3vw;
-    background-color:whitesmoke;
+    margin: 2vh 1vw 2vh 2vw; 
+}
+.blog {
+    margin-bottom: 2vh;
+    background-color:#e6b800;
     filter: drop-shadow(0px 3px 3px black);
     padding: 1vh 1vw 1vh 1vw;
 }
-.media h3{
+.blog h3{
     font-size: 25px;
     font-family: Roboto Slab;
 }
-.media iframe{
+.blog iframe{
     width: 25vw;
     height: 30vh;
     border: 2px solid black;
@@ -167,6 +192,44 @@ nav{
 .media p{
     text-decoration: none;
     color: black;
+}
+.Video {
+    background-color:#e6b800;
+    filter: drop-shadow(0px 3px 3px black);
+    padding: 1vh 1vw 1vh 1vw;
+}
+.Video h3{
+    font-size: 25px;
+    font-family: Roboto Slab;
+}
+.Video iframe{
+    width: 25vw;
+    height: 30vh;
+    border: 2px solid black;
+    text-decoration: none;
+    color: black;
+}
+.Video p{
+    text-decoration: none;
+    color: black;
+}
+.logos {
+    margin: 2vh 20vw 0vh 0vw;
+    justify-content: space-between;
+    display: flex;
+    
+    
+    
+   
+}
+.logos a:hover {
+   background-color: yellow;
+   filter: blur(1px); 
+    
+   
+}
+.logos img{
+    height: 5vh;
 }
 .instagram,.twitter,.Facebook {
     flex:1;
@@ -197,8 +260,9 @@ nav{
     font-size: 1vw;
     text-align: center;
 }
+
 footer{
-    background-color:darkslategray;
+    background-color:black;
     width: 100%;
     height: 12vh;
     align-items: center;
@@ -295,7 +359,13 @@ footer p{
        margin: 2vh 4vw 5vh 1vw;
         
     }
-    .instagram,.twitter,.Facebook {
+ .logos {
+    margin: 2vh 20vw 0vh 20vw;
+    justify-content: space-between;
+    display: flex;
+}
+
+   .instagram,.twitter,.Facebook {
     margin: 10vh 0vh 0vh 0vh;
         
 }
@@ -303,12 +373,15 @@ footer p{
     height: 25vh;
     }
     .instagram h3,.twitter h3,.Facebook h3 {
-     font-size: 5vw;
-}
+        font-size: 5vw;} 
  footer p {
    
     font-size: 2.5vh; 
-    }   
+    } 
+    .nama input {
+        display: flex;
+        justify-content: space-around;
+    }
 }
 @media screen and (max-width: 600px){
         .nav-link{
@@ -393,11 +466,13 @@ footer p{
     }
     .media iframe{
        width: 70vw;
-    height: 45vh;
-
-        
+        height: 45vh;}  
     }
-    .instagram,.twitter,.Facebook {
+   .logos {
+    padding: 2vh 10vw 0vh 10w;
+    justify-content: space-between;
+       display: flex;}
+  .instagram,.twitter,.Facebook {
     margin: 10vh 0vh 0vh 0vh;
         
 }
@@ -508,6 +583,11 @@ footer p{
     }
     .instagram h3,.twitter h3,.Facebook h3 {
      font-size: 5vw;
+}
+  .logos {
+    margin: 2vh 20vw 0vh 0vw;
+    justify-content: space-between;
+    display: flex;
 }
  .footer p {
    
