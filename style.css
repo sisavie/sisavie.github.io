@@ -287,10 +287,13 @@ nav{
     padding: 1vh 1vw 1vh 1vw;
     height:auto;
     margin-top: 5vh;
-        
-   
-  
-
+    font-family: Poppins;
+}
+.content h1{
+    font-family: Roboto Slab;
+}
+.content h3{
+    font-family: Quicksand;
 }
 footer{
     background-color:black;
