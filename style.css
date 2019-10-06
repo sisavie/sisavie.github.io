@@ -112,13 +112,14 @@ nav{
 }
 .cta-select{
     border: 2px solid #121212;
-    background: transparent;
-    color: #121212;
-    width: 150px;
-    height: 30px;
+    background: black;
+    color: whitesmoke;
+    width: 10vw;
+    height: 5vh;
     cursor:pointer;
     font-size: 16px;
 }
+
 .cover{
     margin: 0vh 10vw 0vh 10vw;
     
