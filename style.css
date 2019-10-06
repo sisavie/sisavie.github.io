@@ -9,6 +9,7 @@ body{
     font-family: 'Quicksand', sans-serif;
     font-family: 'Poppins', sans-serif;
     background-image: url(./image/bakgrond.jpg);
+    background-position: center;
     
 }
 /*.bekgron {
@@ -232,34 +233,55 @@ nav{
 }
 .instagram,.twitter,.Facebook {
     flex:1;
-    margin: 0vw 0vw 0vw 10vw;
+    margin: 0vh 0vw 0vh 5vw;
    
 }
 .instagram img{
-    height: 40vh;
+    height: 20vh;
 }
 .twitter img{
-    height: 40vh;
+    height: 20vh;
 }
 .facebook img{
-    height: 40vh;
+    height: 20vh;
 }
-.instagram h3{
+.instagram p{
     font-family: Roboto Slab;
-    font-size: 1vw;
-    text-align: center;
+    font-size: 5vh;
+   
 }
-.twitter h3{
+.twitter p{
     font-family: Roboto Slab;
-    font-size: 1vw;
-    text-align: center;
+    font-size: 5vh;
+  
 }
-.Facebook h3{
+.Facebook p{
     font-family: Roboto Slab;
-    font-size: 1vw;
-    text-align: center;
+    font-size: 5vh;
+   
 }
+.qnawrap{
+    display: flex;
+    flex-direction: column;
+     width: 100%;
+     margin: auto;
+     min-height: 88vh;
+    align-items:center;
+    text-align: center;
+    
+    
 
+}
+.content{
+    background-color: #e6b800;
+    padding: 1vh 1vw 1vh 1vw;
+    height:auto;
+    margin-top: 5vh;
+        
+   
+  
+
+}
 footer{
     background-color:black;
     width: 100%;
