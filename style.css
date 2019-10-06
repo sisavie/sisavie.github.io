@@ -295,6 +295,9 @@ nav{
 .content h3{
     font-family: Quicksand;
 }
+.content input{
+    height: 4vh;
+}
 footer{
     background-color:black;
     width: 100%;
